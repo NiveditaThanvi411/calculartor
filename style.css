@@ -1,0 +1,32 @@
+.calculator-body{
+    height: 350px;
+    width: 300px;
+    background-color: #55423d;
+    margin: 40px auto;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 40px;
+}
+.screen{
+    background-color: #e78fb3;
+    text-align: right;
+    width: 270px;
+    display: block;
+    margin: 0px auto;
+    font-size: 25px;
+    padding: 5px 5px;
+    margin-bottom: 30px;
+}
+.btn{
+    width: 50px;
+    text-align: center;
+    padding: 2px 0px;
+    font-size: 20px;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: tomato;
+    flex-wrap: wrap;
+}
