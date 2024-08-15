@@ -1,5 +1,5 @@
-.calculator-body{
-    height: 350px;
+.calculator-body {
+    height: 300px;
     width: 300px;
     background-color: #55423d;
     margin: 40px auto;
@@ -7,7 +7,8 @@
     padding: 20px;
     padding-top: 40px;
 }
-.screen{
+
+.screen {
     background-color: #e78fb3;
     text-align: right;
     width: 270px;
@@ -16,17 +17,40 @@
     font-size: 25px;
     padding: 5px 5px;
     margin-bottom: 30px;
+    font-family: "DS-Digital Normal";
 }
-.btn{
+
+.btn {
     width: 50px;
     text-align: center;
     padding: 2px 0px;
     font-size: 20px;
+    margin: 3px;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
 }
-.button-container{
+
+
+
+.button-container {
     display: flex;
     flex-direction: column;
     height: 200px;
-    background-color: tomato;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-different {
+    background-color: #f45d48;
+    height: 70px;
+    color: white;
+}
+
+@font-face {
+    font-family: 'DS-Digital Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DS-Digital Normal'), url('DS-DIGI.woff') format('woff');
 }
